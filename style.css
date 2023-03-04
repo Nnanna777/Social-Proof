@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: url("images/bg-pattern-top-desktop.svg") left top no-repeat, url("images/bg-pattern-bottom-desktop.svg") right top no-repeat;
+    font-family: 'League Spartan', sans-serif;;
+ } 
+ .social-cont{
+    margin-left: 90px;
+    margin-right:140px;
+    margin-top: 20px;
+ }
+ .cont-top{
+    display: flex;
+    padding-bottom: 24px;
+ }
+ .product{
+  width:50%;
+ }
+ .product h1{
+    font-weight: 900;
+    font-size: 54px;
+    color:#521d51 ;
+ }
+ .product p{
+    font-weight: 500;
+    font-size: 18px;
+    color:#521d51 ;
+    opacity: 0.8;
+    line-height: 25px;
+ }
+ .rating{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    width:50%;
+    color: #531c52;
+    font-weight: 900;
+    font-size:18px;
+ }
+ .rating-1{
+    background-color:#f3eff3 ;
+    width: 380px;
+    padding: 18px 45px 18px 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+ }
+ .rating-2{
+    margin-right: 40px;
+ }
+ .rating-3{
+    margin-right:80px;
+ }
+ .icon{
+    padding-right: 25px;
+ }
+ .cont-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+ }
+ .cont-colton{
+    background-color: #511f50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    width:32%;
+    border-radius: 10px;
+    padding:10px 0px;
+}
+ .colt-head{
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+ }
+ .colt-head h5 {
+    line-height: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+ }
+ .cont-colton p{
+    color: white;
+    font-size: 16px;
+ }
+ .face{
+    border-radius: 40px;
+    width:40px;
+    height:40px;
+ }
+ .colt-name{
+    margin-left: 30px;
+ }
+ .colt-name span{
+    color: hsl(333, 80%, 67%);
+    opacity: 0.7;
+ }
+ .cont-colton-1{
+    margin-bottom: 36px;
+ }
+ .cont-colton-2{
+    margin-top: 18px;
+    margin-bottom: 18px;
+ }
+ .cont-colton-3{
+    margin-top: 36px;
+ }
